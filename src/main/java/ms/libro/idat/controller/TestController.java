@@ -10,6 +10,6 @@ public class TestController {
 
     @GetMapping
     public String testPikachu(){
-        return "Hello World";
+        return "Hello World Raton mickey";
     }
 }
