@@ -35,7 +35,7 @@ public class EmployeController {
 
     @PutMapping
     public Employe update(@RequestBody Employe employe){
-        return service.update(employe.getIdEmploye(), employe.getName());
+        return service.update(employe.getId(), employe.getName());
     }
 
     @DeleteMapping
